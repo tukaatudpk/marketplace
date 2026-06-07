@@ -72,8 +72,8 @@ export default function LandingPage() {
         <div className="flex items-center gap-2">
           {/* Mock Logo */}
           <div className="text-2xl font-bold text-[#1e3a8a] tracking-tight flex items-center gap-1">
-            <div className="w-4 h-1 bg-yellow-400 transform -rotate-45 translate-y-1"></div>
-            tukaatu
+            {/* <div className="w-4 h-1 bg-yellow-400 transform -rotate-45 translate-y-1"></div> */}
+            <img src="/logo/tukaatu_main_logo.png" alt="" className='w-50' />
           </div>
         </div>
       </header>
