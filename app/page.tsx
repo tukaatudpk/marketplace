@@ -75,6 +75,7 @@ export default function LandingPage() {
             {/* <div className="w-4 h-1 bg-yellow-400 transform -rotate-45 translate-y-1"></div> */}
             <img src="/logo/tukaatu_main_logo.png" alt="" className='w-50' />
           </div>
+
         </div>
       </header>
 
@@ -107,13 +108,13 @@ export default function LandingPage() {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <button className="flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-gray-600 bg-gray-800/50 hover:bg-gray-800 text-white font-medium transition-colors">
+              {/* <button className="flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-gray-600 bg-gray-800/50 hover:bg-gray-800 text-white font-medium transition-colors">
                 <ShoppingBag size={18} />
                 Shop from 1000s of stores
-              </button>
+              </button> */}
               <Link href={"https://store.tukaatu.com/"}>
               
-              <button className="flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-gray-600 bg-gray-800/50 hover:bg-gray-800 text-white font-medium transition-colors">
+              <button className=" flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-gray-600 bg-gray-800/50 hover:bg-gray-800 text-white font-medium transition-colors">
                 <Store size={18} />
                 Launch your own store
               </button>
@@ -121,7 +122,7 @@ export default function LandingPage() {
             </div>
 
             {/* Email Input */}
-            <div className="flex flex-col sm:flex-row gap-3 max-w-md">
+            {/* <div className="flex flex-col sm:flex-row gap-3 max-w-md">
               <div className="relative flex-grow">
                 <input 
                   type="email" 
@@ -134,7 +135,7 @@ export default function LandingPage() {
                 <Bell size={18} />
                 Notify Me
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Column - Category Grid */}
